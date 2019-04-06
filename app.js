@@ -45,12 +45,6 @@ const server = http.createServer((req, res) => {
         case ".jpg":
             contentType = "image/jpg";
             break;
-        case ".woff":
-            contentType = "font/woff"
-            break;
-        case ".woff2":
-            contentType = "font/woff2"
-            break;
     }
 
     if (contentType == "text/html" && extname == "") filePath += ".html";
