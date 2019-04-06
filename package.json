@@ -1,0 +1,18 @@
+{
+  "name": "hw4",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000w\u00003\u0000\r\u0000 \u0000",
+  "main": "CTList.js",
+  "scripts": {
+    "start": "node app",
+    "dev" : "nodemon app"
+  },
+  "author": "Supatcha Nanan",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
